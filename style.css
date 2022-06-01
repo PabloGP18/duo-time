@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: black;
+    color:green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 40%   auto;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.grid-container > div {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.column1{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin:10px;
+}
+.title{
+    position:fixed;
+}
+
+.pic{
+    padding:10px;
+    display: flex;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.favoColor{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.amongUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+
+.title{
+    margin: 10px;
+    justify-content: center;
+}
+.dogs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+.animal{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.sport{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.sportpic{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+}
+.fictcharacter{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.characterpic{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.favoceleb{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.celebpic{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.challenge{
+    border: 1px solid white;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+canvas{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width: 773px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
